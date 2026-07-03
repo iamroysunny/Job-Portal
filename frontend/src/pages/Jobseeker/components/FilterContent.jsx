@@ -3,8 +3,7 @@ import {
   ChevronUp,
 } from "lucide-react";
 import { CATEGORIES, JOB_TYPES } from "../../../utils/data";
-import SalaryRangeSlider from "../../../components/Input/SalaryRangeSlider";
-
+import SalaryRangeSlider from "../../../../components/Input/SalaryRangeSlider";
 const FilterSection = ({
   title,
   children,
